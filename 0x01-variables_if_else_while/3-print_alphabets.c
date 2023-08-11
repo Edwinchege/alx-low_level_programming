@@ -5,22 +5,22 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	char lowercase = 'a';
+	char letter = 'a';
 
-	while (lowercase <= 'z')
+	while (letter <= 'z')
 	{
-		putchar(lowercase);
-		lowercase++;
+		putchar(letter);
+		letter++;
 	}
 
-	char uppercase = 'A';
+	char letter = 'A';
 
-	while (uppercase <= 'Z')
+	while (letter <= 'Z')
 	{
-		putchar(uppercase);
-		uppercase++;
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
