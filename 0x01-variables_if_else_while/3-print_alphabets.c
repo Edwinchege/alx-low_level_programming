@@ -7,20 +7,12 @@
  */
 int main(void)
 {
-	char letter = 'a';
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while (letter <= 'z')
+	for (i = 0; i < 52; i++)
 	{
-		putchar(letter);
-		letter++;
-	}
-
-	char letter = 'A';
-
-	while (letter <= 'Z')
-	{
-		putchar(letter);
-		letter++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
