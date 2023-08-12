@@ -18,7 +18,7 @@ int main(void)
 	}
 	else
 	{
-		putchar(num + '0')
+		putchar(num + '0');
 	}
 	num++;
 	}
