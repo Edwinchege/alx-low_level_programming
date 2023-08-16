@@ -2,8 +2,7 @@
 
 /**
  * main - sum of all the multiples of 3 and 5
- * below 1024 (excluded) 
- * 
+ * below 1024 (excluded)
  * Return: Always 0.
  */
 int main(void)
