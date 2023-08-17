@@ -6,11 +6,11 @@
  *@b: int to be multiplied by a
  *return: product of int a and int b
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int product;
 	
-	product = a * b;
+	product = (a * b);
 	
 	return (product);
 }
