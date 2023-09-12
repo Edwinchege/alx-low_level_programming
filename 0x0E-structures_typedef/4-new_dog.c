@@ -24,7 +24,7 @@ int _strlen(char *s)
 /**
  * *_strcpy - copies a string to a buffer
  * @dest: the destination buffer
- * @src: 
+ * @src: the source string to be copied
  *
  * Return: the pointer to dest
  */
